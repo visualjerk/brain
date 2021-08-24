@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bashscripts.md.md",
+            "file": "bashscripts.md",
             "mode": "source"
           }
         }
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bashscripts.md.md",
+                "file": "bashscripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +89,7 @@
   },
   "active": "f93fb92d7e911e9b",
   "lastOpenFiles": [
+    "bashscripts.md",
     "Untitled.md"
   ]
 }
