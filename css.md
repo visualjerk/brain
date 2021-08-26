@@ -14,3 +14,19 @@ Prevent this "grid blowout" by using `minmax(0, 1fr)`.
   grid-template-columns: minmax(0, 1fr) 200px;
 }
 ```
+
+## Media Queries
+
+### Prevent Sticky Hover Styles
+
+Some touch devices emulate `:hover`, resulting in "sticky" hover styles.
+
+This can be prevented by using `@media(hover: hover)` to check if the primary input source can hover conveniently.
+
+```css
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+```
